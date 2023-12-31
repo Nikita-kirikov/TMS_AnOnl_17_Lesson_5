@@ -5,9 +5,7 @@ public class Third {
 
         for(int i = 0; i < numbers.length; i++) {
             for (int j = 0; j < numbers[0].length; j++) {
-                int a = numbers[i][j];
                 sum += numbers[i][j];
-                System.out.println(a);
             }
         }
         System.out.println("Сумма всех элементов массива равна " + sum);
