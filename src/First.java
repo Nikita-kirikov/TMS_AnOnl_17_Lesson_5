@@ -4,7 +4,7 @@ public class First {
 
         for (int i = 0; i < table.length; i++) {
             for (int j = 0; j < table[0].length; j++) {
-                if ((j  + i) % 2 == 0 ) {
+                if ((j + i) % 2 == 0 ) {
                     table[i][j] = "W";
                 } else {
                     table[i][j] = "B";
